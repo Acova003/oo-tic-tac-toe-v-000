@@ -44,7 +44,7 @@ class TicTacToe
     input = gets.strip
     @index = input_to_index(input)
     if valid_move?(@index)
-      move(index, token = "X")
+      move(@index, token = "X")
       display_board
     else 
       puts "Invalid input. Please try again."
