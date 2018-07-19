@@ -48,7 +48,7 @@ class TicTacToe
       display_board
     else 
       puts "Invalid input. Please try again."
-      turn(index, token = "X")
+      turn
     end
   end 
   
