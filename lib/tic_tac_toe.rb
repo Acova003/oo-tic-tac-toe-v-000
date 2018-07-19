@@ -99,8 +99,8 @@ class TicTacToe
   end
   
   def winner
-    if won?(@board)
-       winning_line = won?(@board)
+    if won?
+       winning_line = won?
        return @board[winning_line[0]]
     end
   end
